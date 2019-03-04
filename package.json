@@ -1,6 +1,6 @@
 {
-  "name": "sincere-flattery",
-  "version": "1.0.0",
+  "name": "@queuehammer/flattery",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/acorn": "^4.0.5",
+    "acorn": "^6.1.1",
+    "acorn-loose": "^6.0.0",
+    "acorn-walk": "^6.1.1",
+    "esprima": "^4.0.1",
+    "lodash": "^4.17.11",
+    "minimist": "^1.2.0"
+  }
 }
